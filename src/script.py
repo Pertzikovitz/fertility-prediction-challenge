@@ -83,7 +83,7 @@ def predict(input_path, output):
         ["nomem_encr", "prediction"]
     ), "Predictions must have two columns: nomem_encr and prediction"
 
-    predictions.to_csv(output, index=False)
+    predictions.to_csv(output, index=False) 
 
 
 def score(prediction_path, ground_truth_path, output):
